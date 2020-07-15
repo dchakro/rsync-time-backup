@@ -279,7 +279,7 @@ AUTO_DELETE_LOG="1"
 EXPIRATION_STRATEGY="1:1 30:7 365:30"
 AUTO_EXPIRE="1"
 
-RSYNC_FLAGS="-D --numeric-ids --links --hard-links --one-file-system --archive --no-perms --no-groups --no-owner --itemize-changes --stats --human-readable"
+RSYNC_FLAGS="-D --numeric-ids --links --hard-links --one-file-system --archive --no-perms --no-group --no-owner --itemize-changes --stats --human-readable"
 
 while :; do
 	case $1 in
